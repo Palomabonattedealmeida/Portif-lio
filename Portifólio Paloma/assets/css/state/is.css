@@ -1,0 +1,17 @@
+.is-disabled {
+    pointer-events: none;
+    background: var(--disabled-background-color);
+    color: var(--disabled-font-color);
+}
+
+.is-hidden {
+    display: none;
+}
+
+.is-invisible {
+    visibility: hidden;
+}
+
+.is-active {
+    display: block;
+}

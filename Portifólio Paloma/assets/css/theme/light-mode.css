@@ -1,0 +1,8 @@
+.light-mode:root {
+    --primary-bg-color: #FAFAFA;
+    --primary-font-color: #303030;
+    --secondary-font-color: white;
+    --primary-theme-color: #E4BF51;
+    --primary-theme-color-low: #F9D15A;
+    --secondary-theme-color: #434CDF;
+}

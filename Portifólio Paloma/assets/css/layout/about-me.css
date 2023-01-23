@@ -1,0 +1,44 @@
+.l-aboutme {
+    padding: 4rem 0;
+    box-sizing: border-box;
+    background-color: var(--primary-theme-color);
+    border-radius: 20px;
+    margin: 1rem 3rem 0;
+}
+
+.l-aboutme .narrow {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    justify-content: center;
+}
+
+.aboutme__text {
+    font-size: 1rem;
+    line-height: 1.5;
+    width: 70%;
+}
+
+.aboutme__button {
+    border: .125rem solid var(--primary-font-color);
+    width: 10.625rem;
+    padding: .625rem;
+    color: var(--primary-font-color);
+    box-sizing: border-box;
+}
+
+.aboutme__image {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.aboutme__image p {
+    font-size: 1.25rem;
+}
+
+.aboutme__image___image {
+    width: 6.25rem;
+    border-radius: 50%;
+    background-color: var(--primary-theme-color-low);
+}

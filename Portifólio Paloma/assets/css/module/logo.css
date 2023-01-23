@@ -1,0 +1,5 @@
+.header__name::after {
+    content: 'Paloma_';
+    font-size: 1.25rem;
+    font-weight: bolder;
+}

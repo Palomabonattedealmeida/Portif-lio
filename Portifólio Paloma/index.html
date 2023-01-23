@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="pt-br" aria-label="Tema escuro">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preload" as="font" href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;700;800;900&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;700;800;900&display=swap" >
+    <script src="https://kit.fontawesome.com/9e46e299e9.js" crossorigin="anonymous"></script>
+    <!-- Base -->
+    <link rel="stylesheet" type="text/css" href="./assets/css/base/reset.css">
+    <link rel="stylesheet" type="text/css" href="./assets/css/base/base.css">
+    <!-- Layouts -->
+    <link rel="stylesheet" type="text/css" href="./assets/css/layout/header.css">
+    <link rel="stylesheet" type="text/css" href="./assets/css/layout/main.css">
+    <link rel="stylesheet" type="text/css" href="./assets/css/layout/about-me.css">
+    <link rel="stylesheet" type="text/css" href="./assets/css/layout/skills.css">
+    <link rel="stylesheet" type="text/css" href="./assets/css/layout/projects.css">
+    <link rel="stylesheet" type="text/css" href="./assets/css/layout/contact.css">
+    <link rel="stylesheet" type="text/css" href="./assets/css/layout/footer.css">
+    <!-- Modules / Components -->
+    <link rel="stylesheet" type="text/css" href="./assets/css/module/theme-switch.css">
+    <link rel="stylesheet" type="text/css" href="./assets/css/module/btn-contact-me.css">
+    <link rel="stylesheet" type="text/css" href="./assets/css/module/logo.css">
+    <link rel="stylesheet" type="text/css" href="./assets/css/module/nav.css">
+    <link rel="stylesheet" type="text/css" href="./assets/css/module/btn-mobile.css">
+    <link rel="stylesheet" type="text/css" href="./assets/css/module/social-links.css">
+    <link rel="stylesheet" type="text/css" href="./assets/css/module/form.css">
+    <link rel="stylesheet" type="text/css" href="./assets/css/module/secondary-menu.css">
+    <!-- States -->
+    <link rel="stylesheet" type="text/css" href="./assets/css/state/is.css">
+    <!-- Themes -->
+    <link rel="stylesheet" type="text/css" href="./assets/css/theme/dark-mode.css">
+    <link rel="stylesheet" type="text/css" href="./assets/css/theme/light-mode.css">
+    <!-- Responsive -->
+    <link rel="stylesheet" type="text/css" href="./assets/css/responsive/responsive.css">
+    <title>Paloma Almeida Portfolio_</title>
+    <meta name="description" content="Portfolio da Paloma, quem eu sou, todos os meus projetos, como me contatar">
+</head>
+
+<body>
+    <header id="header">
+        <div class="narrow">
+            <h2 class="header__name"></h2>
+            <nav id="nav">
+                <button aria-label="Abrir menu" id="btn-mobile" aria-haspopup="true" aria-controls="menu" aria-expanded="false">
+                    <span id="burguer"></span>
+                </button>
+                <ul id="menu" role="menu" aria-labelledby="btn-mobile">
+                    <li class="menu__listitem" role="presentation">
+                        <a href="#aboutme" role="menuitem">Sobre mim</a></li>
+                    <li class="menu__listitem" role="presentation">
+                        <a href="#skills" role="menuitem">Skills</a></li>
+                    <li class="menu__listitem" role="presentation">
+                        <a href="#projects" role="menuitem">Projetos</a></li>
+                    <!-- <li class="menu__listitem" role="presentation">
+                        <a href="#contact" role="menuitem">Contato</a></li> -->
+                    <li class="menu__listitem" role="presentation">
+                        <button class="menu__secondary" aria-label="Abrir menu secundário"><i class="fa-solid fa-ellipsis-vertical"></i></button></li>
+                    <li class="menu__listitem" role="presentation">
+                        <a href="#contact" role="menuitem">Fale comigo
+                            <i class="fa-solid fa-chevron-right"></i>
+                        </a>
+                    </li>
+                    <li class="menu__listitem" id="menu-theme" >
+                        <a href="#" role="menuitem">Tema: Dark</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main id="main">
+        <div class="narrow">
+            <div class="main__container">
+                <p class="main__title">Olá, meu nome é</p>
+                <h1 class="main__name">Paloma
+                    <br>
+                    Almeida
+                </h1>
+                <p class="main__sub">Tenho 36 anos, curso Engenharia de Computação na Univesp e faço parte do Projeto Oracle One da Alura! </p>
+                <div class="main__links">
+                    <ul class="main__social">
+                        <li class="main__social___item">
+                            <a href=" https://github.com/Palomabonattedealmeida" target="_blank">GitHub
+                                <i class="fa-solid fa-link"></i>
+                            </a>
+                        </li>
+                        <li class="main__social___item">
+                            <a href="https://www.linkedin.com/in/paloma-bonatte-de-almeida
+" target="_blank">Linkedin
+                                <i class="fa-solid fa-link"></i>
+                            </a>
+                        </li>
+                        
+                    </ul>
+                    <a class="main__contact" href="#contact" role="button">Contate-me
+                        <i class="main__contact___arrow fa-solid fa-arrow-right-long"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="main__image">
+                <img class="main__image___image" src="./assets/img/Foto.jpg" alt="Paloma photo" draggable="false">
+            </div>
+        </div>
+    </main>
+    <section id="aboutme" class="l-aboutme">
+        <div class="narrow">
+            <h2>Sobre mim</h2>
+            <p class="aboutme__text">
+                Sou Tecnica de Enfermagem há 17 anos, casada, mãe do Bernardo, de 8 anos e estou no Quarto Semeste de Engenharia de Computação.
+                <br>Sempre gostei muito de tecnologia e aprendendo gosto a cada dia mais. Peço a Deus muito sucesso nesse novo desafio da minha vida!            </p>
+            <a class="aboutme__button" role="button" href="https://github.com/Palomabonattedealmeida" target="_blank">Veja meus projetos</a>
+            
+        </div>
+    </section>
+    <section id="skills" class="l-skills">
+        <div class="narrow">
+            <h2 class="skills__title">Skills</h2>
+            <div class="skills__container">
+                <div class="skills__container___item">
+                    <img class="skills__container___image" src="./assets/img/html5.svg" alt="html5 icon" draggable="false">
+                    <p class="skills__container___text">Html5</p>
+                </div>
+                <div class="skills__container___item">
+                    <img class="skills__container___image" src="./assets/img/css3.svg" alt="css3 icon" draggable="false">
+                    <p class="skills__container___text">Css3</p>
+                </div>
+                <div class="skills__container___item">
+                    <img class="skills__container___image" src="./assets/img/java.svg" alt="java icon" draggable="false">
+                    <p class="skills__container___text">Java</p>
+                </div>
+                <div class="skills__container___item">
+                    <img class="skills__container___image" src="./assets/img/javascript.svg" alt="javascript icon" draggable="false">
+                    <p class="skills__container___text">Javascript</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="projects" class="l-projects">
+        <div class="narrow">
+            <h2 class="projects__title">Experiência profissional</h2>
+            <div>
+                <div class="projects__list">
+                    <div class="projects__image">
+                        <img class="projects__image___image" src="./assets/img/Decodificador.jpeg" alt="decodificador">
+                    </div>
+                    <div class="projects__text">
+                        <h4>Decodificador de texto</h4>
+                        <p class="projects__sub">Codificador e Decodificador de texto utilizando HTML5, CSS3 e Javascript</p>
+                        <div class="projects__links">
+                            <a class="projects__button" role="button" href="https://github.com/Palomabonattedealmeida/uploadMeuCodificador.git" target="_blank"><i class="fa-brands fa-github"></i>Repositório</a>
+                            <a class="projects__button" role="button" href="https://palomabonattedealmeida.github.io/uploadMeuCodificador/" target="_blank">Ver demo</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="projects__list">
+                    <div class="projects__image">
+                        <img class="projects__image___image" src="./assets/img/JogodaForca.jpeg" alt="decodificador">
+                    </div>
+                    <div class="projects__text">
+                        <h4>Jogo da forca</h4>
+                        <p class="projects__sub">Jogo da forca utilizando HTML5, CSS3 e Javascript</p>
+                        <div class="projects__links">
+                            <a class="projects__button" role="button" href="https://github.com/Palomabonattedealmeida/JogodaForca.git" target="_blank"><i class="fa-brands fa-github"></i>Repositório</a>
+                            <a class="projects__button" role="button" href="https://palomabonattedealmeida.github.io/JogodaForca/" target="_blank">Ver demo</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <div class="bg"></div>
+        <div class="narrow">
+            <h2 class="contact__title">Contate-me_</h2>
+            <div class="contact__content">
+                <div class="contact__container">
+                    <p>Quer entrar em contato comigo?<br>Fale comigo por meio das minhas redes sociais</p>
+                    <ul class="main__social">
+                        <li class="main__social___item">
+                            <a href="https://github.com/Palomabonattedealmeida" target="_blank">GitHub
+                                <i class="fa-solid fa-link"></i>
+                            </a>
+                        </li>
+                        <li class="main__social___item">
+                            <a href="https://www.linkedin.com/in/paloma-bonatte-de-almeida" target="_blank">Linkedin
+                                <i class="fa-solid fa-link"></i>
+                            </a>
+                        </li>
+                        
+                    </ul>
+                </div>
+                <div class="contact__form">
+                    <p>Ou preencha o formulário abaixo e eu te responderei o mais rápido possível</p>
+                    <form class="form" name="contact">
+                        <fieldset class="form__container">
+                            <input class="contact__form___item" type="text" id="name" onblur="validateName(contact.name)" placeholder="Seu nome *" required>
+                        </fieldset>
+                        <fieldset class="form__container">
+                            <input class="contact__form___item" type="email" id="email" onblur="validateEmail(contact.email)" placeholder="Seu email *" required>
+                        </fieldset>
+                        <fieldset class="form__container">
+                            <textarea rows="7" id="message" name="message" placeholder="Sua mensagem *" onblur="validateMessage(contact.message)" required></textarea>
+                        </fieldset>
+                        <input id="form__submit" class="contact__form___button" type="submit" value="Enviar">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer id="footer">
+        <p>Todos os direitos reservados Paloma Almeida &copy; 2023</p>
+    </footer>
+    <script src="./assets/js/js.js"></script>
+</body>
+
+</html>
